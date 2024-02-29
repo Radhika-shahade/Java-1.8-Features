@@ -24,8 +24,7 @@ Welcome to Java 8! This document provides a brief overview of some of the key fe
     - This feature facilitates the addition of new methods to interfaces without breaking existing implementations.
 
 5. **Method References:**
-    - Method references provide a shorthand syntax for lambda expressions.
-    - They allow you to refer to methods or constructors without invoking them.
+   - Java 8 Method reference is used to refer method of functional interface . It is compact and easy form of lambda expression. Each time when you are using lambda expression to just referring a method, you can replace your lambda expression with method reference.
 
 6. **Optional Class:**
     - The `Optional` class provides a container object which may or may not contain a non-null value.
