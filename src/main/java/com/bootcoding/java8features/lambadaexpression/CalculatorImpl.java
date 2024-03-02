@@ -6,6 +6,7 @@ import com.bootcoding.java8features.functionalinterface.Calculator;
 public class CalculatorImpl {
     // Method to perform an operation using a functional interface
     private static double performOperation(Calculator operation, int a, int b) {
+
         return operation.calculate(a,b);
     }
         public static void main(String[] args) {
