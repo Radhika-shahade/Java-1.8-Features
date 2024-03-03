@@ -25,7 +25,7 @@ public class OptionalDemo {
 
         Optional<Object> emptyOptional = Optional.empty();
         System.out.println(emptyOptional);
-//        if object that is paaing is never null then use Optional.of method
+//        if object that is passing is never null then use Optional.of method
 //        if object is null it will throw null pointer exception
 //        Optional<String> email = Optional.of(customer.getEmail());
 //        System.out.println(email);
